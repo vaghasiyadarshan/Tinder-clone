@@ -28,7 +28,7 @@ const Header = ({backButton }) => {
     <Link to='/'>
      <img 
      className='tinderlogo'
-     src='https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/tinder.png'/>
+     src='hg'/>
     
     
     </Link> 

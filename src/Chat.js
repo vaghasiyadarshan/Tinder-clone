@@ -8,7 +8,7 @@ const Chat = (name,message,profilePic,timestamp) => {
   <Link to={`/chat/${name}`}> 
   <div className="chat">
       
-        <Avatar className="chat__image" src="https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg" />
+        <Avatar className="chat__image" src="" />
             <div className="chat__details">
                 <h2>darshan</h2><p>
                   bast

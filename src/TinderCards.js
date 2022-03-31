@@ -9,36 +9,17 @@ function TinderCards() {
     const [people, setPeople] = useState([
         {
             name: 'darshan',
-            url: "https://image.cnbcfm.com/api/v1/image/105074018-GettyImages-669889778.jpg?v=1570829866&w=929&h=523",
+            url: "",
         }
         ,
         {
             name: 'vaghasiya',
-            url: "https://i.insider.com/6154dfbbb414c100186301fb?width=1136&format=jpeg",
+            url: "",
         }
     ]);
     
 
-    // useEffect(() => {
 
-    //     database
-    //     .collection("people")
-    //     .onSnapshot((Snapshot)=>
-
-    //     setPeople(Snapshot.docs.map((doc)=>doc.data()))
-    //     );
-    // }, []);
-    // //   useEffect(() => {
-    //     const unsubscribe = database
-    //       .collection("people")
-    //       .onSnapshot((snapshot) =>
-    //         setPeople(snapshot.docs.map((doc) => doc.data()))
-    //       );
-
-    //     return () => {
-    //       unsubscribe();
-    //     };
-    //   }, []);
 
     return (
         <div>

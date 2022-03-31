@@ -8,14 +8,14 @@ const ChatScreen = () => {
   const [messages, setMessages] = useState([
     {
       name: "Labrador",
-      image:
-        "https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg",
+      image:""
+        
       message: "Hey",
     },
     {
       name: "Labrador",
       image:
-        "https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg",
+        "",
       message: "Bork bork bork",
     },
     {
